@@ -1,8 +1,10 @@
-TOKEN = "..."
+# config.py
+TOKEN = "YOUR_DISCORD_TOKEN"        # Find in network requests or cookies
+GUILD_ID = "123456789012345678"     # Server (guild) ID
+CHANNEL_ID = "987654321098765432"   # Channel ID to fetch members from
 
-GUILD_ID = "1015135963044913162" # id сервера
-CHANNEL_ID = "1033562781380776028" # id канала
+# Roles to include (by name). Only users with these roles will be parsed.
+ROLES = ["Member", "VIP", "Subscriber"]
 
-TIMEOUT_ACCOUNT = 2 # Задержка на получение аккаунтов
-
-ROLES = ["Kacho", "Bucho"] # Роли которые нужно получать
+# Delay between profile requests (in seconds)
+TIMEOUT_ACCOUNT = 2
