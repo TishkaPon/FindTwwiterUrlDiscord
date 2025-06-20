@@ -26,8 +26,8 @@ A simple, configurable Python script that leverages the Discord API (via Discum)
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/YourUsername/discord-twitter-scraper.git
-   cd discord-twitter-scraper
+   git clone https://github.com/TishkaPon/FindTwwiterUrlDiscord.git
+   cd FindTwwiterUrlDiscord
    ```
 
 2. **Install dependencies**
