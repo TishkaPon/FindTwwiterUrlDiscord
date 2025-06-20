@@ -62,7 +62,7 @@ CHANNEL_ID = "987654321098765432"   # Channel ID to fetch members from
 ROLES = ["Member", "VIP", "Subscriber"]
 
 # Delay between profile requests (in seconds)
-TIMEOUT_ACCOUNT = 2.0
+TIMEOUT_ACCOUNT = 2
 ```
 
 > **Tip:** To get IDs, enable Developer Mode in Discord, then right-click on server or channel and select *Copy ID*.
